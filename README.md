@@ -15,6 +15,15 @@ any type of digital camera. More visual results can be found [here](http://peopl
 #### 2. Prerequisites
 
 - Python + Pillow, scipy, numpy, imageio packages
+```bash
+!pip install Pillow scipy numpy imageio
+
+Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/
+Requirement already satisfied: Pillow in /usr/local/lib/python3.7/dist-packages (7.1.2)
+Requirement already satisfied: scipy in /usr/local/lib/python3.7/dist-packages (1.7.3)
+Requirement already satisfied: numpy in /usr/local/lib/python3.7/dist-packages (1.21.6)
+Requirement already satisfied: imageio in /usr/local/lib/python3.7/dist-packages (2.9.0)
+```
 - [TensorFlow 1.x / 2.x](https://www.tensorflow.org/install/) + [CUDA CuDNN](https://developer.nvidia.com/cudnn)
 - Nvidia GPU
 
